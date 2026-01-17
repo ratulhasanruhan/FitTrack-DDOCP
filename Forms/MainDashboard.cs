@@ -181,10 +181,8 @@ namespace FitTrack_DDOCP.Forms
 
         private void btnViewProgress_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Progress View form will be implemented next.",
-                "Coming Soon",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information);
+            ProgressForm progressForm = new ProgressForm(currentUser);
+            progressForm.ShowDialog(this);
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -201,6 +199,11 @@ namespace FitTrack_DDOCP.Forms
                 Authentication authForm = new Authentication();
                 authForm.Show();
             }
+        }
+
+        private void lblAppTitle_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

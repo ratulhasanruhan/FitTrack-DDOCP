@@ -67,9 +67,10 @@ namespace FitTrack_DDOCP.Forms
             this.lblAppTitle.ForeColor = System.Drawing.Color.White;
             this.lblAppTitle.Location = new System.Drawing.Point(20, 15);
             this.lblAppTitle.Name = "lblAppTitle";
-            this.lblAppTitle.Size = new System.Drawing.Size(163, 32);
+            this.lblAppTitle.Size = new System.Drawing.Size(102, 32);
             this.lblAppTitle.TabIndex = 0;
-            this.lblAppTitle.Text = "FitTrack Pro";
+            this.lblAppTitle.Text = "FitTrack";
+            this.lblAppTitle.Click += new System.EventHandler(this.lblAppTitle_Click);
             // 
             // panelUserInfo
             // 
@@ -89,7 +90,7 @@ namespace FitTrack_DDOCP.Forms
             this.lblGoal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.lblGoal.Location = new System.Drawing.Point(15, 45);
             this.lblGoal.Name = "lblGoal";
-            this.lblGoal.Size = new System.Drawing.Size(176, 20);
+            this.lblGoal.Size = new System.Drawing.Size(174, 20);
             this.lblGoal.TabIndex = 1;
             this.lblGoal.Text = "Daily Calorie Goal: 0 kcal";
             // 
@@ -100,7 +101,7 @@ namespace FitTrack_DDOCP.Forms
             this.lblWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(107)))));
             this.lblWelcome.Location = new System.Drawing.Point(15, 10);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(144, 25);
+            this.lblWelcome.Size = new System.Drawing.Size(143, 25);
             this.lblWelcome.TabIndex = 0;
             this.lblWelcome.Text = "Welcome, User";
             // 
@@ -123,7 +124,7 @@ namespace FitTrack_DDOCP.Forms
             this.lblProgressPercentage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.lblProgressPercentage.Location = new System.Drawing.Point(15, 85);
             this.lblProgressPercentage.Name = "lblProgressPercentage";
-            this.lblProgressPercentage.Size = new System.Drawing.Size(85, 19);
+            this.lblProgressPercentage.Size = new System.Drawing.Size(88, 19);
             this.lblProgressPercentage.TabIndex = 2;
             this.lblProgressPercentage.Text = "Progress: 0%";
             // 
@@ -142,7 +143,7 @@ namespace FitTrack_DDOCP.Forms
             this.lblTotalCalories.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.lblTotalCalories.Location = new System.Drawing.Point(15, 15);
             this.lblTotalCalories.Name = "lblTotalCalories";
-            this.lblTotalCalories.Size = new System.Drawing.Size(325, 30);
+            this.lblTotalCalories.Size = new System.Drawing.Size(331, 30);
             this.lblTotalCalories.TabIndex = 0;
             this.lblTotalCalories.Text = "?? Total Calories Burned: 0 kcal";
             // 

@@ -49,16 +49,26 @@
     <Compile Include="Forms\ActivityEntryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ActivityEntryForm.Designer.cs" />
+    <Compile Include="Forms\ActivityEntryForm.Designer.cs">
+      <DependentUpon>ActivityEntryForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Authentication.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Authentication.Designer.cs" />
+    <Compile Include="Forms\Authentication.Designer.cs">
+      <DependentUpon>Authentication.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\MainDashboard.Designer.cs">
       <DependentUpon>MainDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ValidationHelper.cs" />
     <Compile Include="Models\ActivityRecord.cs" />
@@ -66,6 +76,18 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AuthService.cs" />
+    <EmbeddedResource Include="Forms\ActivityEntryForm.resx">
+      <DependentUpon>ActivityEntryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Authentication.resx">
+      <DependentUpon>Authentication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainDashboard.resx">
+      <DependentUpon>MainDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -88,10 +110,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Managers\" />
-    <Folder Include="Utilities\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\app_icon.ico" />
   </ItemGroup>
