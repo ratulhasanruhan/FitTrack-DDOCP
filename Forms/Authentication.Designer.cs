@@ -45,11 +45,11 @@ namespace FitTrack_DDOCP.Forms
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.lblTitle.Location = new System.Drawing.Point(90, 30);
+            this.lblTitle.Location = new System.Drawing.Point(184, 30);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(320, 37);
+            this.lblTitle.Size = new System.Drawing.Size(118, 37);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "FitTrack Authentication";
+            this.lblTitle.Text = "FitTrack";
             // 
             // lblUsername
             // 
@@ -57,7 +57,7 @@ namespace FitTrack_DDOCP.Forms
             this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.Location = new System.Drawing.Point(80, 110);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(84, 20);
+            this.lblUsername.Size = new System.Drawing.Size(78, 20);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Username:";
             // 
@@ -67,7 +67,7 @@ namespace FitTrack_DDOCP.Forms
             this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.Location = new System.Drawing.Point(80, 190);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(77, 20);
+            this.lblPassword.Size = new System.Drawing.Size(73, 20);
             this.lblPassword.TabIndex = 2;
             this.lblPassword.Text = "Password:";
             // 
@@ -133,7 +133,7 @@ namespace FitTrack_DDOCP.Forms
             this.lblUsernameHint.ForeColor = System.Drawing.Color.Gray;
             this.lblUsernameHint.Location = new System.Drawing.Point(84, 165);
             this.lblUsernameHint.Name = "lblUsernameHint";
-            this.lblUsernameHint.Size = new System.Drawing.Size(188, 13);
+            this.lblUsernameHint.Size = new System.Drawing.Size(125, 13);
             this.lblUsernameHint.TabIndex = 6;
             this.lblUsernameHint.Text = "Letters and numbers only";
             // 
@@ -168,6 +168,7 @@ namespace FitTrack_DDOCP.Forms
             this.Name = "Authentication";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FitTrack - Authentication";
+            this.Load += new System.EventHandler(this.Authentication_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

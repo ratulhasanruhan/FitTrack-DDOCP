@@ -61,5 +61,10 @@ namespace FitTrack_DDOCP.Forms
                 lblMessage.ForeColor = Color.Red;
             }
         }
+
+        private void Authentication_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
