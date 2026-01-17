@@ -138,7 +138,7 @@ namespace FitTrack_DDOCP.Forms
         private void UpdateProgressDisplay()
         {
             double totalCaloriesBurned = currentUser.GetTotalCaloriesBurned();
-            lblTotalCalories.Text = $"?? Total Calories Burned: {totalCaloriesBurned:F0} kcal";
+            lblTotalCalories.Text = $"Total Calories Burned: {totalCaloriesBurned:F0} kcal";
 
             if (currentUser.CalorieGoal > 0)
             {

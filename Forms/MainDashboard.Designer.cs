@@ -143,9 +143,9 @@ namespace FitTrack_DDOCP.Forms
             this.lblTotalCalories.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(0)))));
             this.lblTotalCalories.Location = new System.Drawing.Point(15, 15);
             this.lblTotalCalories.Name = "lblTotalCalories";
-            this.lblTotalCalories.Size = new System.Drawing.Size(331, 30);
+            this.lblTotalCalories.Size = new System.Drawing.Size(305, 30);
             this.lblTotalCalories.TabIndex = 0;
-            this.lblTotalCalories.Text = "?? Total Calories Burned: 0 kcal";
+            this.lblTotalCalories.Text = "Total Calories Burned: 0 kcal";
             // 
             // panelActions
             // 
